@@ -155,7 +155,7 @@ html {
   background: #e2e8f0;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  /*justify-content: space-between;*/
   padding: 16px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   position: relative;
@@ -353,7 +353,19 @@ html {
 }
 
 .avatar-wrapper {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   border-radius: 12px;
   overflow: hidden;
+}
+
+.footer {
+  background-color: #d9d9d9;
+  height: 35px;
+}
+
+.footer-heading {
+  color: #fff;
+  line-height: 35px;
+  text-decoration: none;
+  margin-left: 15px;
 }
