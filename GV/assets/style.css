@@ -345,15 +345,14 @@ html {
   justify-content: space-between;
 }
 
-.information-layout-item {
+#information-layout-item {
   padding: 16px;
   border-radius: 12px;
-  background: #d1d5db;
   margin-bottom: 16px;
 }
 
 .avatar-wrapper {
-  aspect-ratio: 3 / 4;
+  /*aspect-ratio: 3 / 4;*/
   border-radius: 12px;
   overflow: hidden;
 }

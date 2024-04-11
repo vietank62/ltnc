@@ -44,15 +44,15 @@
           <div class="sidebar_username">I’m Gay</div>
         </div>
         <i class="bi bi-chevron-up"></i>
-        <div class="sidebar_bottom-panel show">
-          <div class="sidebar_bottom-panel-title">
+        <div class="sidebar_bottom-panel show" style="height: 250px;">
+          <div class=" sidebar_bottom-panel-title">
             Bachelor of Computer Science
           </div>
           <div class="sidebar_bottom-panel-menu-wrapper pt-4">
             <div class="sidebar_bottom-panel-item">Information</div>
-            <div class="sidebar_bottom-panel-item">Schedule</div>
-            <div class="sidebar_bottom-panel-item">Grades</div>
-            <div class="sidebar_bottom-panel-item">Tuition Fee</div>
+            <a href="./schedule.html">
+              <div class="sidebar_bottom-panel-item">Schedule</div>
+            </a>
           </div>
         </div>
       </div>
@@ -65,39 +65,36 @@
           thông tin</button>
         <div class="row">
           <div class="col-12 col-order-2 col-md-12 col-xl-6 col-xxl-8 col-xl-order-1">
-            <div class="information-layout-item">
+            <div class="alert alert-primary" role="alert">
               Họ và tên lót :
             </div>
-            <div class="information-layout-item">
+            <div id="information-layout-item" class="alert alert-secondary" role="alert">
               Tên :
             </div>
-            <div class="information-layout-item">
+            <div id="information-layout-item" class="alert alert-success" role="alert">
               Ngày sinh :
             </div>
-            <div class="information-layout-item">
+            <div id="information-layout-item" class="alert alert-danger" role="alert">
               Giới tính :
             </div>
-            <div class="information-layout-item">
+            <div id="information-layout-item" class="alert alert-warning" role="alert">
               Bằng cấp :
+            </div>
+            <div id="information-layout-item" class="alert alert-info" role="alert">
+              Chuyên môn :
             </div>
           </div>
           <div class="col-12 col-order-2 col-md-12 col-xl-6 col-xxl-4 col-xl-order-1">
             <div class="avatar-wrapper">
-              <img src="./assets/img/tuan-anh.jpg" width="100%" alt="" srcset="">
+              <img src="./assets/img/tuan-anh.jpg" width="70%" alt="" srcset="">
             </div>
           </div>
           <div class="col-12 col-xl-12 ">
-            <div class="information-layout-item mt-3">
-              Chuyên môn
-            </div>
-            <div class="information-layout-item mt-3">
+            <div id="information-layout-item mt-3" class="alert alert-secondary" role="alert">
               Đơn vị :
             </div>
-            <div class="information-layout-item mt-3">
+            <div id="information-layout-item mt-3" class="alert alert-dark" role="alert">
               Quê quán :
-            </div>
-            <div class="information-layout-item mt-3">
-              Giới thiệu :
             </div>
           </div>
         </div>
@@ -105,7 +102,7 @@
 
     </div>
     <!-- Right Layout -->
-    <div id="right-panel-container" class="right-panel-container vh-100">
+    <!--<div id="right-panel-container" class="right-panel-container vh-100">
       <div id="rp_button-collapse" class="rp_button-collapse">
         <i class="bi bi-chevron-double-right"></i>
       </div>
@@ -138,10 +135,10 @@
         </div>
       </div>
     </div>
-  </div>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="./assets/js/calendar.js"></script>
-  <script src="./assets/js/main.js"></script>
+  </div>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/calendar.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
